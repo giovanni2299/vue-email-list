@@ -4,6 +4,7 @@ createApp({
   data() {
     return {
       emalis:[],
+      nEmails:10
     }
   },
   methods:{
@@ -22,7 +23,7 @@ createApp({
     }
   },
   created(){
-    this.newEmail(10)
+    this.newEmail(this.nEmails)
 
     
   }

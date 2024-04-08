@@ -9,9 +9,9 @@
 </head>
 <body>
     <div id="app">
-        <ul>
+        <ul v-for="email in emalis">
             
-            <li v-for="email in emalis" v-if="emalis.length === nEmails">{{ email }}
+            <li  v-if="emalis.length === nEmails">{{ email }}
 
             </li>
         </ul>
